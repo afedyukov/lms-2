@@ -1,10 +1,33 @@
-.header{
+.h1{
 	color:#1628c9 ; 
-	font-size:100px ;
+	font-size:24px ;
 	
 }
 
-.new{
-	color:#ff1e00;
-	font-size:50xp;
+.text{
+
+}
+
+.email{
+	color:#0000ff;
+	text-decoration: none;
+}
+.email:hover{
+	color:#f00;
+	text-decoration: hover;
+	text-decoration: underline;
+}
+
+.header{
+	width:960px;
+	background:#04ff00;
+	color:#f00;
+	font-size:16px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-right:10px;
 }
