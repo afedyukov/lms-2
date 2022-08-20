@@ -1,17 +1,18 @@
 .h1{
 	color:#1628c9 ; 
-	font-size:24px ;
+	font-size:48px ;
 	
 }
 
 .text{
-
+	font-size:24px ;
 }
 
 .email{
 	color:#0000ff;
 	text-decoration: none;
 }
+
 .email:hover{
 	color:#f00;
 	text-decoration: hover;
@@ -20,8 +21,8 @@
 
 .header{
 	
-	background:#04ff00;
-	color:#f00;
+	background: #9db8fa;
+	color: black;
 	font-size:16px;
 	margin: 0 auto;
 	text-align: center;
@@ -29,11 +30,12 @@
 }
 .feedback{
 	padding-bottom:40px;
+	background:97fcde;
 }
 
 .container{
 	width:960px;
-	border: 5px solid #ff0000; 
+	border: 5px solid #000; 
 	text-align: center;
 	margin: 100px auto;
 	border-radius: 20px;
@@ -41,17 +43,43 @@
 }
 .form__input{
 	width: 400px;
-	background: black;
-	color: white;
+	background: #97fcde;
+	color: #9c8d06;
 	border:  1px solid;
 	font-size: 14px;
 	padding:10px 4px;
 	display : block;
-	margin: auto;
+	margin:10px auto;
 }
+
 .form__button{
-		background: red;
+		background: #f7ce39;
 		padding: 10px;
-		color: black;
+		color:red;
 		border-radius: 200px;
+		margin:10px auto;
+}
+
+.form__area{
+	width: 200px;
+	background: #f7ce39;
+	color: #9c8d06;
+	border:  1px solid;
+	font-size: 14px;
+	padding:10px 4px;
+	display : block;
+	border-radius: 5px;
+	margin:10px auto;
+}
+
+.form__select{
+	width: 200px;
+	background: f7ce39;
+	color: #9c8d06;
+	border:  1px solid;
+	font-size: 14px;
+	padding:10px 4px;
+	display : block;
+	margin:10px auto;
+	border-radius: 5px;
 }
